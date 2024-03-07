@@ -13,6 +13,7 @@ module.exports = {
       slate: "#FCFCFC",
       black: "#2B292C",
       grey: "#B6B6B6",
+      white: "#F5F5F5",
     },
 
     extend: {},
