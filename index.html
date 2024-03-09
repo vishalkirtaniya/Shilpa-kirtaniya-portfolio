@@ -9,18 +9,26 @@
   <body class="m-0 p-0 font-sans text-black bg-white">
     <div class="container mx-auto body-section">
       <!-- header content -->
-      <header class="border-2 border-black h-[1080px] w-full"></header>
+      <header class="h-[1080px] w-full relative">
+        <div class="absolute w-full h-full">
+          <img
+            class="z-0"
+            src="./src/sample images/K90LK5HW_output_0.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="absolute flex justify-center items-center w-full h-full">
+          <h1 class="text-grey text-[100px] font-bold z-10 drop-shadow">
+            Sample Title
+          </h1>
+        </div>
+      </header>
       <!-- main content -->
       <main class="">
         <!-- projects section -->
-        <section
-          id="projects"
-          class="flex border-2 border-black h-[700px] w-full"
-        >
-          <div class="flex items-center h-full w-1/3 border-2 border-black">
-            <div
-              class="content-container w-[480px] h-[450px] border-2 border-black"
-            >
+        <section id="projects" class="flex h-[700px] w-full">
+          <div class="flex items-center h-full w-1/3">
+            <div class="content-container w-[480px] h-[450px]">
               <h1 class="text-2xl font-semibold">Projects</h1>
               <p class="mt-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -34,13 +42,9 @@
               </p>
             </div>
           </div>
-          <div
-            class="grid grid-cols-3 place-items-center h-full w-2/3 border-2 border-black"
-          >
-            <div class="w-[280px] h-[450px] border-2 border-black">
-              <div
-                class="w-full h-[370px] border-2 border-black overflow-hidden"
-              >
+          <div class="grid grid-cols-3 place-items-center h-full w-2/3">
+            <div class="w-[280px] h-[450px]">
+              <div class="w-full h-[370px] overflow-hidden">
                 <img
                   class="scale-[170%]"
                   src="./src/sample images/Designer(3).png"
@@ -50,10 +54,8 @@
               <h3 class="font-semibold text-xl mt-1">Project Name</h3>
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
             </div>
-            <div class="w-[280px] h-[450px] border-2 border-black">
-              <div
-                class="w-full h-[370px] border-2 border-black overflow-hidden"
-              >
+            <div class="w-[280px] h-[450px]">
+              <div class="w-full h-[370px] overflow-hidden">
                 <img
                   class="scale-[170%]"
                   src="./src/sample images/Designer(4).png"
@@ -63,10 +65,8 @@
               <h3 class="font-semibold text-xl mt-1">Project Name</h3>
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
             </div>
-            <div class="w-[280px] h-[450px] border-2 border-black">
-              <div
-                class="w-full h-[370px] border-2 border-black overflow-hidden"
-              >
+            <div class="w-[280px] h-[450px]">
+              <div class="w-full h-[370px] overflow-hidden">
                 <img
                   class="scale-[170%]"
                   src="./src/sample images/Designer(5).png"
@@ -80,13 +80,15 @@
         </section>
 
         <!-- major project section -->
-        <section
-          id="major-project"
-          class="flex border-2 border-black h-[700px] w-full my-10"
-        >
-          <div class="w-2/3 h-full border-2 border-black"></div>
-          <div class="w-1/3 h-full border-2 border-black">
-            <div class="h-full ml-20 w-[427px] border-2 border-black">
+        <section id="major-project" class="flex h-[700px] w-full my-10">
+          <div class="w-2/3 h-full">
+            <img
+              src="./src/sample images/LI9U7Z2D_output_0(1)-transformed.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="w-1/3 h-full">
+            <div class="h-full ml-20 w-[427px]">
               <h1 class="mt-16 font-semibold text-xl">
                 Project Description: Lorem ipsum dolor sit, amet consectetur
                 adipisicing elit. Est repudiandae dolore, libero tenetur quo
@@ -103,11 +105,8 @@
         </section>
 
         <!-- experience section -->
-        <section
-          id="experience-section"
-          class="flex border-2 border-black h-[900px] w-full"
-        >
-          <div class="w-1/3 h-full border-2 border-black pr-10">
+        <section id="experience-section" class="flex h-[900px] w-full">
+          <div class="w-1/3 h-full pr-10">
             <h1 class="mt-[42px] text-xl font-semibold">
               Description: Lorem ipsum, dolor sit amet consectetur adipisicing
               elit. Molestiae beatae error
@@ -120,12 +119,10 @@
             </p>
             <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
           </div>
-          <div class="flex items-center w-2/3 h-full border-2 border-black">
-            <div class="flex w-full h-[800px] border-2 border-black">
-              <div class="h-[800px] w-[510px] border-2 border-black">
-                <div
-                  class="w-full h-[650px] border-2 border-black overflow-hidden"
-                >
+          <div class="flex items-center w-2/3 h-full">
+            <div class="flex w-full h-[800px]">
+              <div class="h-[800px] w-[510px]">
+                <div class="w-full h-[650px] overflow-hidden">
                   <img
                     class="scale-[170%]"
                     src="./src/sample images/Designer(6).png"
@@ -138,10 +135,8 @@
                   adipisicing elit. Placeat minima.
                 </p>
               </div>
-              <div class="ml-20 h-[600px] w-[400px] border-2 border-black">
-                <div
-                  class="w-full h-[450px] border-2 border-black overflow-hidden"
-                >
+              <div class="ml-20 h-[600px] w-[400px]">
+                <div class="w-full h-[450px] overflow-hidden">
                   <img
                     class="scale-[170%]"
                     src="./src/sample images/Designer(7).png"
@@ -159,10 +154,7 @@
         </section>
 
         <!-- about me section -->
-        <section
-          id="about-me"
-          class="relative border-2 border-black h-[1080px] w-full"
-        >
+        <section id="about-me" class="relative h-[1080px] w-full">
           <div class="absolute w-full h-full bg-text-container">
             <div class="flex justify-evenly items-center h-full w-full">
               <h1 class="text-5xl z-0">Hello</h1>
@@ -172,19 +164,15 @@
           <div
             class="grid grid-cols-1 gap-5 place-items-center w-full h-full bg- bg-text-container"
           >
-            <h1 class="border-2 border-black">FASHION PORTFOLIO</h1>
-            <div
-              class="picture-container h-[400px] w-[400px] z-10 border-2 border-black"
-            >
+            <h1 class="">FASHION PORTFOLIO</h1>
+            <div class="picture-container h-[400px] w-[400px] z-10">
               <img
                 class=""
                 src="./src/sample images/Designer(8).png"
                 alt="profile picture"
               />
             </div>
-            <div
-              class="text-center content-container h-[200px] w-[400px] border-2 border-black"
-            >
+            <div class="text-center content-container h-[200px] w-[400px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
               tempore eius debitis perferendis illum ad saepe eaque a corporis
               totam dignissimos veniam deserunt atque adipisci, voluptatem odio
@@ -193,24 +181,22 @@
           </div>
         </section>
       </main>
-      <footer class="border-2 border-black h-[300px] w-full">
-        <div
-          class="flex content-container border-2 border-black w-full h-[270px]"
-        >
-          <div class="logo-container h-full w-1/3 border-2 border-black"></div>
+      <footer class="h-[300px] w-full">
+        <div class="flex content-container w-full h-[270px]">
+          <div class="logo-container h-full w-1/3"></div>
           <div
-            class="flex flex-col justify-center section-list-container h-full w-1/3 border-2 border-black"
+            class="flex flex-col justify-center section-list-container h-full w-1/3"
           >
             <h1 class="text-xl font-semibold text-center">Socials</h1>
             <div class="social-logo-container flex justify-center">
-              <div class="behance h-12 w-12 border-2 border-black">
+              <div class="behance h-12 w-12">
                 <img
                   class="h-12 w-12"
                   src="./src/icon-folder/behance-svgrepo-com.svg"
                   alt="behance logo"
                 />
               </div>
-              <div class="linkedin h-12 w-12 border-2 border-black">
+              <div class="linkedin h-12 w-12">
                 <img
                   class="h-12 w-12"
                   src="./src/icon-folder/LinkedIn_icon.svg"
@@ -220,7 +206,7 @@
             </div>
           </div>
           <div
-            class="pl-20 flex flex-col justify-center navigation-container h-full w-1/3 border-2 border-black"
+            class="pl-20 flex flex-col justify-center navigation-container h-full w-1/3"
           >
             <div class="nav-links">
               <ul>

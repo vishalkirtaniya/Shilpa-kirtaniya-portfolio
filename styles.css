@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "myfont";
+  src: url(./src/fonts/PlayfairDisplay-Regular.ttf) format("truetype"),
+    url(./src/fonts/PlayfairDisplay-Regular.woff) format("woff"),
+    url(./src/fonts/PlayfairDisplay-Regular.woff2) format("woff2");
+}
+
 /* Global Styles */
 html {
+  font-family: "myfont";
   scroll-behavior: smooth;
 }
